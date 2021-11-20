@@ -29,20 +29,19 @@ Express js starter for interview process of software engineer with skills as Jav
 	Navigate to the folder where you would like create dev folder for interview
 	Use following command to clone
 ```
-	git clone [paste-clone-repo-url-here]
+$ git clone [paste-clone-repo-url-here]
 ```
-	Press enter
 
 -	Navigate to new folder created as onboard-express-starter
 ```
-	cd onboard-express-starter
+$ cd onboard-express-starter
 ```
 
 ## Install dependencies
 
 -	Run repo by running	
 ```
-npm i && npm start
+$ npm i && npm start
 ```
 in cmd folder
 
@@ -64,16 +63,22 @@ https://portotheme.com/html/molla/index-9.html
 ```
 
 * For html, css skill set
+```
     Design responsive layout for followings:
 	.	Slideshow
 	.	Below Slideshow banner layout
+```
 
 * For javascript skill set
-	.	Make slideshow functional
-	.	Make menu drowdown functional
+```
+	Make slideshow functional
+	Make menu drowdown functional
+```
 
 * For expert javascript skill set
-	.	Design responsive menu
+```
+	Design responsive menu
+```
 
 *	Once complete, commit your code to your repo which should be public
 	Share your repo link in which you have commited your final code

@@ -94,8 +94,8 @@ $ git add --all
 $ git commit -m "favstores interview technical round code submittion from [your_name] on [date] [day]"
 
 # If you are using git for the first time, then you might need to config your git account
-$ git config user.email "your-git-account@git.com"
-$ git config user.name "your-user-name"
+$ git config --global user.email "your-git-account@git.com"
+$ git config --global user.name "your-user-name"
 
 # Final push to your changes
 $ git push --all origin

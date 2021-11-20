@@ -2,7 +2,7 @@
 Express js starter for interview process of software engineer with skills as Javascript, Html, Css, Database crud
 
 
-## Installation via Clone
+## Prepare setup tools
 
 -   Intall node 14.1.0
 -	Download Git
@@ -13,55 +13,55 @@ Express js starter for interview process of software engineer with skills as Jav
 	https://github.com/favstores/onboard-express-starter.git
 -	Fork it on github
 	By clicking fork button on top right
--	Copy clone url from
-	code -> url
--	Open cmd
-	Navigate to the folder where you would like create dev folder for interview
-	Use following command to clone
-	git clone [paste-clone-repo-url-here]
-	Press enter
--	Navigate to new folder created as onboard-express-starter
-	cd onboard-express-starter
--	Run repo by running	"npm i && npm start" in cmd folder
--	You get a webpage opened at browser after processing complete in your cmd
 
 
 ## Dependencies
 
 - Node v14.1.0 (or later)
 
+
 ## Installation via Clone
 
-* Clone this repository
+-	Copy clone url from
+	code -> url
 
+-	Open cmd
+	Navigate to the folder where you would like create dev folder for interview
+	Use following command to clone
 ```
-$ git clone https://github.com/favstores/onboard-express-starter.git [your-app-name]
+	git clone [paste-clone-repo-url-here]
+```
+	Press enter
+
+-	Navigate to new folder created as onboard-express-starter
+```
+	cd onboard-express-starter
 ```
 
-Remove the .git folder and change details within:
+## Install dependencies
 
+-	Run repo by running	
 ```
-package.json
-src/manifest.json
+npm i && npm start
 ```
+in cmd folder
 
-* Install dependencies
+-	You get a webpage opened at browser after processing complete in your cmd
 
-```
-$ cd your-app-name
-$ yarn
-```
 
 ## Available tasks
 
 * To perform follwing task by opening project in any of your favourite editor
 navigate to project folder
+```
 src\components\my-app\template.html
+```
 make your changes and see live affect on running webpack in your browser
 
 * For design sample reference go to:
+```
 https://portotheme.com/html/molla/index-9.html
-
+```
 
 * For html, css skill set
     Design responsive layout for followings:

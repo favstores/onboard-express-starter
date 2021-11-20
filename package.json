@@ -7,24 +7,12 @@
     "start": "node ./config/dev",
     "build": "node ./config/prod",
     "lint": "eslint ./src",
-    "flow": "flow",
     "test": "nyc ava",
-    "prestarta": "yarn build",
     "serve": "http-server ./dist -p 8082 --silent"
   },
-  "author": "Giorgio Gamberoni <giorgio.gamberoni@gmail.com> (https://github.com/king-prawns)",
+  "author": "Git Dev Favstores <gitdev.favstores@outlook.com> (https://github.com/favstores)",
   "license": "MIT",
-  "homepage": "https://github.com/king-prawns/webpack5-starter-kit#readme",
-  "ava": {
-    "files": [
-      "./src/**/*test.js"
-    ],
-    "failFast": true,
-    "failWithoutAssertions": false,
-    "require": [
-      "@babel/register"
-    ]
-  },
+  "homepage": "https://github.com/favstores/onboard-express-starter#readme",
   "devDependencies": {
     "@babel/core": "7.15.8",
     "@babel/plugin-transform-runtime": "7.15.8",
